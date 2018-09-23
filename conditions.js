@@ -1,16 +1,4 @@
-
-
-const numb = "1";
 /*
-if (numb === 1) {
-    console.log("It's number 1!");
-} else if (numb === "1") {
-    console.log("It's string 1!");
-} else {
-    console.log("Don't know what's going on...");
-}
-
-*/
 
 switch (numb) {
     case 1:
@@ -20,5 +8,16 @@ switch (numb) {
         console.log("It's string 1?!");
         break;
     default:
-        console.log("lolloon...");
+        console.log("lolloon...not a number1 / not a string 1");
 }
+*/
+
+const foo = false;
+
+const bar = foo && true ? "hello" : "bye!"; //  jesli true hello // jesli false to bye
+
+console.log("bar:",bar);
+
+const bar1 = foo && false ? "hello" : "bye!"; //  jesli true hello // jesli false to bye
+
+console.log("bar1:",bar1);
